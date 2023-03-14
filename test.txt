@@ -1,0 +1,1 @@
+test file. Today you can delete this file and to start create connection mysql service with php
