@@ -1,2 +1,6 @@
+<?php
+//phpinfo();
+//echo "Hello world!";
+$connection = mysqli_connect('mysql', 'root', 'root');
 
-echo "Hello world! Its my first step by devops. Im learning to use the docker and git for my first project. And im good at it"
+$connection->query('CREATE DATABASE `lemp-docker`');
